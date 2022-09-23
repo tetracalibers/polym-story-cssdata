@@ -1,14 +1,41 @@
 {
-  "name": "story-cssdata",
-  "private": true,
+  "name": "@polym/story-cssdata",
+  "description": "Collection of tools to convert objects to JSON and peek into their contents",
+  "author": {
+    "name": "tomixy"
+  },
+  "license": "MIT",
   "version": "0.0.0",
   "type": "module",
+  "types": "./types/index.d.ts",
+  "files": [
+    "/dist",
+    "/types"
+  ],
+  "main": "./dist/polym-story-cssdata.umd.js",
+  "module": "./dist/polym-story-cssdata.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/polym-story-cssdata.es.js",
+      "require": "./dist/polym-story-cssdata.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "watch": "vite build --watch",
+    "prepare": "yarn build",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "lintfix": "npm run lint -- --fix",
+    "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\""
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
