@@ -1,16 +1,14 @@
-// テスト用（バンドル時はコメントアウト）
-//import './dumpster/use-fs'
-
 import _ from 'lodash'
 import * as CSST from 'csstype'
-import * as cssStoryMetaJson from './data/css-prop-doc.json'
+import * as desc_CSSJson from './data/css-prop-doc.json'
+import { fromJson } from 'json-microscope'
 
 type ProvideCssPropNames = keyof CSST.Properties
 
-export const cssStoryMeta = JSON.parse(JSON.stringify(cssStoryMetaJson)) as {
+export const desc_CSS = fromJson(desc_CSSJson) as {
   [k in ProvideCssPropNames]: {
     control: {
-      type: 'select' | 'text' | 'color'
+      type: 'select' | 'text' | 'color' | 'number'
     }
     options?: string[]
     description: string
@@ -30,7 +28,7 @@ export const useSetDefaultAs =
   (propName: ProvideCssPropNames) => {
     const defaultV = defaultProps[propName]
     return _.set(
-      _.set(cssStoryMeta[propName], 'table.defaultValue.detail', null),
+      _.set(desc_CSS[propName], 'table.defaultValue.detail', null),
       'table.defaultValue.summary',
       defaultV
     )

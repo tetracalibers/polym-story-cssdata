@@ -297,7 +297,7 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csstype@^3.1.1:
+csstype@*:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
@@ -1142,7 +1142,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-mdn-data@^2.0.29:
+mdn-data@*:
   version "2.0.29"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.29.tgz#cbe9b6a7d29d1d38ed414f3c2678cac1d92e9ba0"
   integrity sha512-7n1iU+/dq8AGSgYv/ZOagoaugnJQooGMTr/O29TTHDWV3gnz5gN4bTyhI2zCQH/P6hSDqzqCxJ2xMa2BFG/zlQ==
