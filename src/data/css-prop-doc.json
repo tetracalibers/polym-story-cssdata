@@ -1,0 +1,7678 @@
+{
+  "accentColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "alignContent": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "<baseline-position>",
+      "<content-distribution>",
+      "<overflow-position>? <content-position>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "alignItems": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "stretch",
+      "center",
+      "start",
+      "end",
+      "flex-start",
+      "flex-end",
+      "baseline"
+    ],
+    "description": "Placement of child elements in a direction not specified by flex-direction",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "alignSelf": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "normal",
+      "stretch",
+      "<baseline-position>",
+      "<overflow-position>? <self-position>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "alignTracks": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ normal",
+      "<baseline-position>",
+      "<content-distribution>",
+      "<overflow-position>? <content-position> ]#"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "all": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["initial", "inherit", "unset", "revert"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Miscellaneous",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "noPracticalInitialValue"
+      }
+    }
+  },
+  "animation": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "animation-name,animation-duration,animation-timing-function,animation-delay,animation-iteration-count,animation-direction,animation-fill-mode,animation-play-state,animation-timeline"
+      }
+    }
+  },
+  "animationDelay": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<time>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0s"
+      }
+    }
+  },
+  "animationDirection": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation-direction>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "animationDuration": {
+    "control": {
+      "type": "number"
+    },
+    "description": "Time required to complete one animation cycle",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": 0
+      }
+    }
+  },
+  "animationFillMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation-fill-mode>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "animationIterationCount": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation-iteration-count>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "animationName": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ none", "<keyframes-name> ]#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "animationPlayState": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation-play-state>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "running"
+      }
+    }
+  },
+  "animationTimingFunction": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<easing-function>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "ease"
+      }
+    }
+  },
+  "animationTimeline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-animation-timeline>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Animations",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "appearance": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "auto",
+      "textfield",
+      "menulist-button",
+      "button",
+      "searchfield",
+      "textarea",
+      "push-button",
+      "slider-horizontal",
+      "checkbox",
+      "radio",
+      "square-button",
+      "menulist",
+      "listbox",
+      "meter",
+      "progress-bar"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "aspectRatio": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<ratio>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "azimuth": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<angle>",
+      "[ [ left-side",
+      "far-left",
+      "left",
+      "center-left",
+      "center",
+      "center-right",
+      "right",
+      "far-right",
+      "right-side ]",
+      "",
+      "behind ]",
+      "leftwards",
+      "rightwards"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Speech",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "center"
+      }
+    }
+  },
+  "backdropFilter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<filter-function-list>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Filter Effects",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "backfaceVisibility": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "background": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <bg-layer> , ]* <final-bg-layer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "background-image,background-position,background-size,background-repeat,background-origin,background-clip,background-attachment,background-color"
+      }
+    }
+  },
+  "backgroundAttachment": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<attachment>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "scroll"
+      }
+    }
+  },
+  "backgroundBlendMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<blend-mode>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Compositing and Blending",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "backgroundClip": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["border-box", "padding-box", "content-box", "text"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-box"
+      }
+    }
+  },
+  "backgroundColor": {
+    "control": {
+      "type": "color"
+    },
+    "description": "Color of background",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "summary": "transparent",
+        "detail": null
+      }
+    }
+  },
+  "backgroundImage": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<bg-image>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "backgroundOrigin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["border-box", "padding-box", "content-box"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "padding-box"
+      }
+    }
+  },
+  "backgroundPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<bg-position>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0% 0%"
+      }
+    }
+  },
+  "backgroundPositionX": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ center",
+      "[ [ left",
+      "right",
+      "x-start",
+      "x-end ]? <length-percentage>? ]! ]#"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0%"
+      }
+    }
+  },
+  "backgroundPositionY": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ center",
+      "[ [ top",
+      "bottom",
+      "y-start",
+      "y-end ]? <length-percentage>? ]! ]#"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0%"
+      }
+    }
+  },
+  "backgroundRepeat": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<repeat-style>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "repeat"
+      }
+    }
+  },
+  "backgroundSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<bg-size>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto auto"
+      }
+    }
+  },
+  "blockOverflow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["clip", "ellipsis", "<string>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "clip"
+      }
+    }
+  },
+  "blockSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "border": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-width,border-style,border-color"
+      }
+    }
+  },
+  "borderBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-top-width,border-top-style,border-top-color"
+      }
+    }
+  },
+  "borderBlockColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderBlockStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderBlockWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-top-width,border-top-style,border-top-color"
+      }
+    }
+  },
+  "borderBlockEndColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderBlockEndStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderBlockEndWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-width,border-style,color"
+      }
+    }
+  },
+  "borderBlockStartColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderBlockStartStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderBlockStartWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderBottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-bottom-width,border-bottom-style,border-bottom-color"
+      }
+    }
+  },
+  "borderBottomColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderBottomLeftRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderBottomRightRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderBottomStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-style>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderBottomWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderCollapse": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["collapse", "separate"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "separate"
+      }
+    }
+  },
+  "borderColor": {
+    "control": {
+      "type": "color"
+    },
+    "description": "Color of Border",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": null,
+        "summary": null
+      }
+    }
+  },
+  "borderEndEndRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderEndStartRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderImage": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-image-source'>",
+      "",
+      "<'border-image-slice'> [ / <'border-image-width'>",
+      "/ <'border-image-width'>? / <'border-image-outset'> ]?",
+      "",
+      "<'border-image-repeat'>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-image-source,border-image-slice,border-image-width,border-image-outset,border-image-repeat"
+      }
+    }
+  },
+  "borderImageOutset": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <length>", "<number> ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderImageRepeat": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ stretch", "repeat", "round", "space ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "stretch"
+      }
+    }
+  },
+  "borderImageSlice": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<number-percentage>{1,4} && fill?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "100%"
+      }
+    }
+  },
+  "borderImageSource": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<image>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderImageWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <length-percentage>", "<number>", "auto ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "borderInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-top-width,border-top-style,border-top-color"
+      }
+    }
+  },
+  "borderInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-width,border-style,color"
+      }
+    }
+  },
+  "borderInlineColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderInlineStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderInlineWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderInlineEndColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderInlineEndStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderInlineEndWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'border-top-width'>",
+      "",
+      "<'border-top-style'>",
+      "",
+      "<color>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-width,border-style,color"
+      }
+    }
+  },
+  "borderInlineStartColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderInlineStartStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderInlineStartWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-top-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderLeft": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-left-width,border-left-style,border-left-color"
+      }
+    }
+  },
+  "borderLeftColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderLeftStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-style>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderLeftWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderRadius": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Roundness of four corners",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-top-left-radius,border-top-right-radius,border-bottom-right-radius,border-bottom-left-radius"
+      }
+    }
+  },
+  "borderRight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-right-width,border-right-style,border-right-color"
+      }
+    }
+  },
+  "borderRightColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderRightStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-style>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderRightWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderSpacing": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length> <length>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderStartEndRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderStartStartRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "hidden",
+      "dotted",
+      "dashed",
+      "solid",
+      "double",
+      "groove",
+      "ridge",
+      "inset",
+      "outset"
+    ],
+    "description": "Line type of border",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": null,
+        "summary": null
+      }
+    }
+  },
+  "borderTop": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-top-width,border-top-style,border-top-color"
+      }
+    }
+  },
+  "borderTopColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "borderTopLeftRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderTopRightRadius": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "borderTopStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-style>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "borderTopWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "borderWidth": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Thickness of the border",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": null,
+        "summary": null
+      }
+    }
+  },
+  "bottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "boxAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["start", "center", "end", "baseline", "stretch"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "stretch"
+      }
+    }
+  },
+  "boxDecorationBreak": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["slice", "clone"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "slice"
+      }
+    }
+  },
+  "boxDirection": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "reverse", "inherit"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "boxFlex": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<number>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "boxFlexGroup": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "boxLines": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["single", "multiple"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "single"
+      }
+    }
+  },
+  "boxOrdinalGroup": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "boxOrient": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "horizontal",
+      "vertical",
+      "inline-axis",
+      "block-axis",
+      "inherit"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "inlineAxisHorizontalInXUL"
+      }
+    }
+  },
+  "boxPack": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["start", "center", "end", "justify"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions, WebKit Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "start"
+      }
+    }
+  },
+  "boxShadow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<shadow>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Backgrounds and Borders",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "boxSizing": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["content-box", "border-box"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "content-box"
+      }
+    }
+  },
+  "breakAfter": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "avoid",
+      "always",
+      "all",
+      "avoid-page",
+      "page",
+      "left",
+      "right",
+      "recto",
+      "verso",
+      "avoid-column",
+      "column",
+      "avoid-region",
+      "region"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "breakBefore": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "avoid",
+      "always",
+      "all",
+      "avoid-page",
+      "page",
+      "left",
+      "right",
+      "recto",
+      "verso",
+      "avoid-column",
+      "column",
+      "avoid-region",
+      "region"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "breakInside": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "avoid", "avoid-page", "avoid-column", "avoid-region"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "captionSide": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "top",
+      "bottom",
+      "block-start",
+      "block-end",
+      "inline-start",
+      "inline-end"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "top"
+      }
+    }
+  },
+  "caretColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "clear": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "left", "right", "both", "inline-start", "inline-end"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "clip": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<shape>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "clipPath": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<clip-source>",
+      "[ <basic-shape>",
+      "",
+      "<geometry-box> ]",
+      "none"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "color": {
+    "control": {
+      "type": "color"
+    },
+    "description": "Text Color",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Color",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": null,
+        "summary": null
+      }
+    }
+  },
+  "printColorAdjust": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["economy", "exact"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Color",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "economy"
+      }
+    }
+  },
+  "colorScheme": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "[ light", "dark", "<custom-ident> ]+ && only?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Color",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "columnCount": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "columnFill": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "balance", "balance-all"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "balance"
+      }
+    }
+  },
+  "columnGap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "columnRule": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'column-rule-width'>",
+      "",
+      "<'column-rule-style'>",
+      "",
+      "<'column-rule-color'>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "column-rule-width,column-rule-style,column-rule-color"
+      }
+    }
+  },
+  "columnRuleColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "columnRuleStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "columnRuleWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'border-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "columnSpan": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "all"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "columnWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "columns": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'column-width'>", "", "<'column-count'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Columns",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "column-width,column-count"
+      }
+    }
+  },
+  "contain": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "strict",
+      "content",
+      "[ size",
+      "",
+      "layout",
+      "",
+      "style",
+      "",
+      "paint ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Containment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "content": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "none",
+      "[ <content-replacement>",
+      "<content-list> ] [/ [ <string>",
+      "<counter> ]+ ]?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Generated Content",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "contentVisibility": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "auto", "hidden"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Containment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "counterIncrement": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <counter-name> <integer>? ]+", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Counter Styles",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "counterReset": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ <counter-name> <integer>?",
+      "<reversed-counter-name> <integer>? ]+",
+      "none"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Counter Styles",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "counterSet": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <counter-name> <integer>? ]+", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Counter Styles",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "cursor": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "default",
+      "none",
+      "context-menu",
+      "help",
+      "pointer",
+      "progress",
+      "wait",
+      "cell",
+      "crosshair",
+      "text",
+      "vertical-text",
+      "alias",
+      "copy",
+      "move",
+      "no-drop",
+      "not-allowed",
+      "e-resize",
+      "n-resize",
+      "ne-resize",
+      "nw-resize",
+      "s-resize",
+      "se-resize",
+      "sw-resize",
+      "w-resize",
+      "ew-resize",
+      "ns-resize",
+      "nesw-resize",
+      "nwse-resize",
+      "col-resize",
+      "row-resize",
+      "all-scroll",
+      "zoom-in",
+      "zoom-out",
+      "grab",
+      "grabbing"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "direction": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["ltr", "rtl"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Writing Modes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "ltr"
+      }
+    }
+  },
+  "display": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "block",
+      "inline",
+      "inline-block",
+      "flex",
+      "inline-flex",
+      "grid",
+      "inline-grid",
+      "flow-root",
+      "none",
+      "contents",
+      "table",
+      "table-row",
+      "list-item"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Display",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "inline"
+      }
+    }
+  },
+  "emptyCells": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["show", "hide"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "show"
+      }
+    }
+  },
+  "filter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<filter-function-list>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Filter Effects",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "flex": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ <'flex-grow'> <'flex-shrink'>?",
+      "",
+      "<'flex-basis'> ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "flex-grow,flex-shrink,flex-basis"
+      }
+    }
+  },
+  "flexBasis": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["content", "<'width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "flexDirection": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["row", "row-reverse", "column", "column-reverse"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "row"
+      }
+    }
+  },
+  "flexFlow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'flex-direction'>", "", "<'flex-wrap'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "flex-direction,flex-wrap"
+      }
+    }
+  },
+  "flexGrow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<number>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "flexShrink": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<number>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "flexWrap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["nowrap", "wrap", "wrap-reverse"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "nowrap"
+      }
+    }
+  },
+  "float": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["left", "right", "none", "inline-start", "inline-end"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "font": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ [ <'font-style'>",
+      "",
+      "<font-variant-css21>",
+      "",
+      "<'font-weight'>",
+      "",
+      "<'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ]",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "font-style,font-variant,font-weight,font-stretch,font-size,line-height,font-family"
+      }
+    }
+  },
+  "fontFamily": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <family-name>", "<generic-family> ]#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "dependsOnUserAgent"
+      }
+    }
+  },
+  "fontFeatureSettings": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<feature-tag-value>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontKerning": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "normal", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "fontLanguageOverride": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<string>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontOpticalSizing": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "fontVariationSettings": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "[ <string> <number> ]#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<absolute-size>", "<relative-size>", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "fontSizeAdjust": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ ex-height",
+      "cap-height",
+      "ch-width",
+      "ic-width",
+      "ic-height ]? [ from-font",
+      "<number> ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "fontSmooth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "never", "always", "<absolute-size>", "<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "fontStretch": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<font-stretch-absolute>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "italic", "oblique <angle>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontSynthesis": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "[ weight", "", "style", "", "small-caps ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "weight style"
+      }
+    }
+  },
+  "fontVariant": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "none",
+      "[ <common-lig-values>",
+      "",
+      "<discretionary-lig-values>",
+      "",
+      "<historical-lig-values>",
+      "",
+      "<contextual-alt-values>",
+      "",
+      "stylistic( <feature-value-name> )",
+      "",
+      "historical-forms",
+      "",
+      "styleset( <feature-value-name># )",
+      "",
+      "character-variant( <feature-value-name># )",
+      "",
+      "swash( <feature-value-name> )",
+      "",
+      "ornaments( <feature-value-name> )",
+      "",
+      "annotation( <feature-value-name> )",
+      "",
+      "[ small-caps",
+      "all-small-caps",
+      "petite-caps",
+      "all-petite-caps",
+      "unicase",
+      "titling-caps ]",
+      "",
+      "<numeric-figure-values>",
+      "",
+      "<numeric-spacing-values>",
+      "",
+      "<numeric-fraction-values>",
+      "",
+      "ordinal",
+      "",
+      "slashed-zero",
+      "",
+      "<east-asian-variant-values>",
+      "",
+      "<east-asian-width-values>",
+      "",
+      "ruby ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantAlternates": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "[ stylistic( <feature-value-name> )",
+      "",
+      "historical-forms",
+      "",
+      "styleset( <feature-value-name># )",
+      "",
+      "character-variant( <feature-value-name># )",
+      "",
+      "swash( <feature-value-name> )",
+      "",
+      "ornaments( <feature-value-name> )",
+      "",
+      "annotation( <feature-value-name> ) ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantCaps": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "small-caps",
+      "all-small-caps",
+      "petite-caps",
+      "all-petite-caps",
+      "unicase",
+      "titling-caps"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantEastAsian": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "[ <east-asian-variant-values>",
+      "",
+      "<east-asian-width-values>",
+      "",
+      "ruby ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantLigatures": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "none",
+      "[ <common-lig-values>",
+      "",
+      "<discretionary-lig-values>",
+      "",
+      "<historical-lig-values>",
+      "",
+      "<contextual-alt-values> ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantNumeric": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "[ <numeric-figure-values>",
+      "",
+      "<numeric-spacing-values>",
+      "",
+      "<numeric-fraction-values>",
+      "",
+      "ordinal",
+      "",
+      "slashed-zero ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontVariantPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "sub", "super"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "fontWeight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<font-weight-absolute>", "bolder", "lighter"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "forcedColorAdjust": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Color",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gap": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Gaps between rows and columns",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "row-gap,column-gap"
+      }
+    }
+  },
+  "grid": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'grid-template'>",
+      "<'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>?",
+      "[ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-template-rows,grid-template-columns,grid-template-areas,grid-auto-rows,grid-auto-columns,grid-auto-flow,grid-column-gap,grid-row-gap,column-gap,row-gap"
+      }
+    }
+  },
+  "gridArea": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line> [ / <grid-line> ]{0,3}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-row-start,grid-column-start,grid-row-end,grid-column-end"
+      }
+    }
+  },
+  "gridAutoColumns": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<track-size>+"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridAutoFlow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ row", "column ]", "", "dense"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "row"
+      }
+    }
+  },
+  "gridAutoRows": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<track-size>+"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridColumn": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line> [ / <grid-line> ]?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-column-start,grid-column-end"
+      }
+    }
+  },
+  "gridColumnEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridColumnGap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "gridColumnStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridGap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'grid-row-gap'> <'grid-column-gap'>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-row-gap,grid-column-gap"
+      }
+    }
+  },
+  "gridRow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line> [ / <grid-line> ]?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-row-start,grid-row-end"
+      }
+    }
+  },
+  "gridRowEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridRowGap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "gridRowStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<grid-line>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "gridTemplate": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ <'grid-template-rows'> / <'grid-template-columns'> ]",
+      "[ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "grid-template-columns,grid-template-rows,grid-template-areas"
+      }
+    }
+  },
+  "gridTemplateAreas": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<string>+"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "gridTemplateColumns": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "<track-list>",
+      "<auto-track-list>",
+      "subgrid <line-name-list>?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "gridTemplateRows": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "<track-list>",
+      "<auto-track-list>",
+      "subgrid <line-name-list>?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "hangingPunctuation": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ first",
+      "",
+      "[ force-end",
+      "allow-end ]",
+      "",
+      "last ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "height": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Height of element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "hyphenateCharacter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<string>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "hyphens": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "manual", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "manual"
+      }
+    }
+  },
+  "imageOrientation": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["from-image", "<angle>", "[ <angle>? flip ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Images",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "from-image"
+      }
+    }
+  },
+  "imageRendering": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "crisp-edges", "pixelated"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Images",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "imageResolution": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ from-image", "", "<resolution> ] && snap?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Images",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1dppx"
+      }
+    }
+  },
+  "imeMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "normal", "active", "inactive", "disabled"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "initialLetter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "[ <number> <integer>? ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Inline",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "initialLetterAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ auto", "alphabetic", "hanging", "ideographic ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Inline",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "inlineSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "inputSecurity": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "inset": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "insetInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'top'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "isolation": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "isolate"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Compositing and Blending",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "justifyContent": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "center",
+      "start",
+      "end",
+      "flex-start",
+      "flex-end",
+      "left",
+      "right",
+      "normal",
+      "space-between",
+      "space-around",
+      "space-evenly",
+      "stretch"
+    ],
+    "description": "Alignment of child elements in the direction specified by flex-direction",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "justifyItems": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "stretch",
+      "<baseline-position>",
+      "<overflow-position>? [ <self-position>",
+      "left",
+      "right ]",
+      "legacy",
+      "legacy && [ left",
+      "right",
+      "center ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "legacy"
+      }
+    }
+  },
+  "justifySelf": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "normal",
+      "stretch",
+      "<baseline-position>",
+      "<overflow-position>? [ <self-position>",
+      "left",
+      "right ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "justifyTracks": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ normal",
+      "<content-distribution>",
+      "<overflow-position>? [ <content-position>",
+      "left",
+      "right ] ]#"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "left": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "letterSpacing": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "lineBreak": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "loose", "normal", "strict", "anywhere"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "lineClamp": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "lineHeight": {
+    "control": {
+      "type": "text"
+    },
+    "description": "line height",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "lineHeightStep": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fonts",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "listStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Lists and Counters",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "list-style-type,list-style-position,list-style-image"
+      }
+    }
+  },
+  "listStyleImage": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<image>", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Lists and Counters",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "listStylePosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["inside", "outside"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Lists and Counters",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "outside"
+      }
+    }
+  },
+  "listStyleType": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<counter-style>", "<string>", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Lists and Counters",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "disc"
+      }
+    }
+  },
+  "margin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <length>", "<percentage>", "auto ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "margin-bottom,margin-left,margin-right,margin-top"
+      }
+    }
+  },
+  "marginBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginBottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'margin-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginLeft": {
+    "control": {
+      "type": "text"
+    },
+    "description": "The left margin of the outside of the element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginRight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginTop": {
+    "control": {
+      "type": "text"
+    },
+    "description": "The top margin of the outside of the element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "marginTrim": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "in-flow", "all"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "mask": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<mask-layer>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "mask-image,mask-mode,mask-repeat,mask-position,mask-clip,mask-origin,mask-size,mask-composite"
+      }
+    }
+  },
+  "maskBorder": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "<'mask-border-source'>",
+      "",
+      "<'mask-border-slice'> [ / <'mask-border-width'>? [ / <'mask-border-outset'> ]? ]?",
+      "",
+      "<'mask-border-repeat'>",
+      "",
+      "<'mask-border-mode'>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "mask-border-mode,mask-border-outset,mask-border-repeat,mask-border-slice,mask-border-source,mask-border-width"
+      }
+    }
+  },
+  "maskBorderMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["luminance", "alpha"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "alpha"
+      }
+    }
+  },
+  "maskBorderOutset": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <length>", "<number> ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "maskBorderRepeat": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ stretch", "repeat", "round", "space ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "stretch"
+      }
+    }
+  },
+  "maskBorderSlice": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<number-percentage>{1,4} fill?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "maskBorderSource": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<image>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "maskBorderWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <length-percentage>", "<number>", "auto ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "maskClip": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ <geometry-box>", "no-clip ]#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-box"
+      }
+    }
+  },
+  "maskComposite": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<compositing-operator>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "add"
+      }
+    }
+  },
+  "maskImage": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<mask-reference>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "maskMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<masking-mode>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "match-source"
+      }
+    }
+  },
+  "maskOrigin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<geometry-box>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "border-box"
+      }
+    }
+  },
+  "maskPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<position>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "center"
+      }
+    }
+  },
+  "maskRepeat": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<repeat-style>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "no-repeat"
+      }
+    }
+  },
+  "maskSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<bg-size>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "maskType": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["luminance", "alpha"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Masking",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "luminance"
+      }
+    }
+  },
+  "masonryAutoFlow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ pack", "next ]", "", "[ definite-first", "ordered ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Grid Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "pack"
+      }
+    }
+  },
+  "mathStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "compact"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "MathML",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "maxBlockSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'max-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "maxHeight": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "<length-percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "maxInlineSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'max-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "maxLines": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "maxWidth": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Maximum width of element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "minBlockSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'min-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "minHeight": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "minInlineSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'min-width'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "minWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "mixBlendMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<blend-mode>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Compositing and Blending",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "objectFit": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["fill", "contain", "cover", "none", "scale-down"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Images",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "fill"
+      }
+    }
+  },
+  "objectPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<position>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Images",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "50% 50%"
+      }
+    }
+  },
+  "offset": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'>",
+      "",
+      "<'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "offset-position,offset-path,offset-distance,offset-anchor,offset-rotate"
+      }
+    }
+  },
+  "offsetAnchor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<position>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "offsetDistance": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "offsetPath": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "ray( [ <angle> && <size> && contain? ] )",
+      "<path()>",
+      "<url>",
+      "[ <basic-shape>",
+      "",
+      "<geometry-box> ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "offsetPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<position>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "offsetRotate": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ auto", "reverse ]", "", "<angle>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Motion Path",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "opacity": {
+    "control": {
+      "type": "number"
+    },
+    "description": "Opacity of the element, i.e., the degree to which the content behind the element is hidden",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Color",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "1"
+      }
+    }
+  },
+  "order": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Flexible Box Layout",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "orphans": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "2"
+      }
+    }
+  },
+  "outline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "outline-color,outline-style,outline-width"
+      }
+    }
+  },
+  "outlineColor": {
+    "control": {
+      "type": "color"
+    },
+    "description": "Color of outline",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "invertOrCurrentColor"
+      }
+    }
+  },
+  "outlineOffset": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "outlineStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<'border-style'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "outlineWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<line-width>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "medium"
+      }
+    }
+  },
+  "overflow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "overflowAnchor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Anchoring",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overflowBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overflowClipBox": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["padding-box", "content-box"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Mozilla Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "padding-box"
+      }
+    }
+  },
+  "overflowClipMargin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<visual-box>", "", "<length [0,∞]>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0px"
+      }
+    }
+  },
+  "overflowInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overflowWrap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "break-word", "anywhere"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "overflowX": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "overflowY": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "overscrollBehavior": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ contain", "none", "auto ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overscrollBehaviorBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["contain", "none", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overscrollBehaviorInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["contain", "none", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overscrollBehaviorX": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["contain", "none", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "overscrollBehaviorY": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["contain", "none", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "padding": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Width of additional area created inside the element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": null,
+        "summary": null
+      }
+    }
+  },
+  "paddingBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingBottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'padding-left'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Logical Properties",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingLeft": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Width of the left margin within the element's interior",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingRight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "paddingTop": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "pageBreakAfter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Pages",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "pageBreakBefore": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Pages",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "pageBreakInside": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "avoid"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Pages",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "paintOrder": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "[ fill", "", "stroke", "", "markers ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "perspective": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "perspectiveOrigin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<position>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "50% 50%"
+      }
+    }
+  },
+  "placeContent": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'align-content'> <'justify-content'>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "placeItems": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'align-items'> <'justify-items'>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "align-items,justify-items"
+      }
+    }
+  },
+  "placeSelf": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'align-self'> <'justify-self'>?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "align-self,justify-self"
+      }
+    }
+  },
+  "pointerEvents": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "none",
+      "visiblePainted",
+      "visibleFill",
+      "visibleStroke",
+      "visible",
+      "painted",
+      "fill",
+      "stroke",
+      "all",
+      "inherit"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "position": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["static", "relative", "absolute", "sticky", "fixed"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "static"
+      }
+    }
+  },
+  "quotes": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "auto", "[ <string> <string> ]+"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Generated Content",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "dependsOnUserAgent"
+      }
+    }
+  },
+  "resize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "both", "horizontal", "vertical", "block", "inline"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "right": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "rotate": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<angle>", "[ x", "y", "z", "<number>{3} ] && <angle>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "rowGap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Alignment",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "rubyAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["start", "center", "space-between", "space-around"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Ruby",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "space-around"
+      }
+    }
+  },
+  "rubyMerge": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["separate", "collapse", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Ruby",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "separate"
+      }
+    }
+  },
+  "rubyPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ alternate", "", "[ over", "under ] ]", "inter-character"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Ruby",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "alternate"
+      }
+    }
+  },
+  "scale": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<number>{1,3}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollbarColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<color>{2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scrollbars",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollbarGutter": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "stable && both-edges?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Overflow",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollbarWidth": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "thin", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scrollbars",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollBehavior": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "smooth"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "OM View",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollMargin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginBottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginLeft": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginRight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollMarginTop": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "scrollPadding": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ auto", "<length-percentage> ]{1,4}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingBlock": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ auto", "<length-percentage> ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingBlockStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingBlockEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingBottom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingInline": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ auto", "<length-percentage> ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingInlineStart": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingInlineEnd": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingLeft": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingRight": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollPaddingTop": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "scrollSnapAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ none", "start", "end", "center ]{1,2}"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapCoordinate": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<position>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapDestination": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<position>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0px 0px"
+      }
+    }
+  },
+  "scrollSnapPointsX": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "repeat( <length-percentage> )"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapPointsY": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "repeat( <length-percentage> )"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapStop": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "always"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "scrollSnapType": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ x",
+      "y",
+      "block",
+      "inline",
+      "both ] [ mandatory",
+      "proximity ]?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapTypeX": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "mandatory", "proximity"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "scrollSnapTypeY": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "mandatory", "proximity"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Scroll Snap",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "shapeImageThreshold": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<alpha-value>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Shapes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0.0"
+      }
+    }
+  },
+  "shapeMargin": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Shapes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "shapeOutside": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "[ <shape-box>", "", "<basic-shape> ]", "<image>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Shapes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "tabSize": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>", "<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "8"
+      }
+    }
+  },
+  "tableLayout": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "fixed"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "start",
+      "end",
+      "left",
+      "right",
+      "center",
+      "justify",
+      "match-parent"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "startOrNamelessValueIfLTRRightIfRTL"
+      }
+    }
+  },
+  "textAlignLast": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "start", "end", "left", "right", "center", "justify"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textCombineUpright": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "all", "[ digits <integer>? ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Writing Modes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "textDecoration": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "text-decoration-color,text-decoration-style,text-decoration-line"
+      }
+    }
+  },
+  "textDecorationColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "textDecorationLine": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ underline",
+      "",
+      "overline",
+      "",
+      "line-through",
+      "",
+      "blink ]",
+      "spelling-error",
+      "grammar-error"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "textDecorationSkip": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ objects",
+      "",
+      "[ spaces",
+      "[ leading-spaces",
+      "",
+      "trailing-spaces ] ]",
+      "",
+      "edges",
+      "",
+      "box-decoration ]"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "objects"
+      }
+    }
+  },
+  "textDecorationSkipInk": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "all", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textDecorationStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["solid", "double", "dotted", "dashed", "wavy"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "solid"
+      }
+    }
+  },
+  "textDecorationThickness": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "from-font", "<length>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textEmphasis": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<'text-emphasis-style'>", "", "<'text-emphasis-color'>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "text-emphasis-style,text-emphasis-color"
+      }
+    }
+  },
+  "textEmphasisColor": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<color>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "currentcolor"
+      }
+    }
+  },
+  "textEmphasisPosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["[ over", "under ] && [ right", "left ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "over right"
+      }
+    }
+  },
+  "textEmphasisStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "[ [ filled",
+      "open ]",
+      "",
+      "[ dot",
+      "circle",
+      "double-circle",
+      "triangle",
+      "sesame ] ]",
+      "<string>"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "textIndent": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length-percentage> && hanging? && each-line?"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0"
+      }
+    }
+  },
+  "textJustify": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "inter-character", "inter-word", "none"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textOrientation": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["mixed", "upright", "sideways"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Writing Modes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "mixed"
+      }
+    }
+  },
+  "textOverflow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["clip", "ellipsis"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "clip"
+      }
+    }
+  },
+  "textRendering": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "optimizeSpeed",
+      "optimizeLegibility",
+      "geometricPrecision"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Miscellaneous",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textShadow": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<shadow-t>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "textSizeAdjust": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "auto", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "autoForSmartphoneBrowsersSupportingInflation"
+      }
+    }
+  },
+  "textTransform": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "full-width",
+      "full-size-kana"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "textUnderlineOffset": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<length>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "textUnderlinePosition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "from-font", "[ under", "", "[ left", "right ] ]"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text Decoration",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "top": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<length>", "<percentage>", "auto"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "touchAction": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "auto",
+      "none",
+      "pan-x",
+      "pan-left",
+      "pan-right",
+      "pan-y",
+      "pan-up",
+      "pan-down",
+      "pinch-zoom",
+      "manipulation"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Pointer Events",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "transform": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<transform-list>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "transformBox": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "content-box",
+      "border-box",
+      "fill-box",
+      "stroke-box",
+      "view-box"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "view-box"
+      }
+    }
+  },
+  "transformOrigin": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "[ <length-percentage>",
+      "left",
+      "center",
+      "right",
+      "top",
+      "bottom ]",
+      "[ [ <length-percentage>",
+      "left",
+      "center",
+      "right ] && [ <length-percentage>",
+      "top",
+      "center",
+      "bottom ] ] <length>?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "50% 50% 0"
+      }
+    }
+  },
+  "transformStyle": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["flat", "preserve-3d"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "flat"
+      }
+    }
+  },
+  "transition": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<single-transition>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transitions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "transition-delay,transition-duration,transition-property,transition-timing-function"
+      }
+    }
+  },
+  "transitionDelay": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<time>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transitions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "0s"
+      }
+    }
+  },
+  "transitionDuration": {
+    "control": {
+      "type": "number"
+    },
+    "description": "Time required to complete animation",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transitions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "summary": 0,
+        "detail": null
+      }
+    }
+  },
+  "transitionProperty": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["none", "<single-transition-property>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transitions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "all"
+      }
+    }
+  },
+  "transitionTimingFunction": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<easing-function>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transitions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "ease"
+      }
+    }
+  },
+  "translate": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "none",
+      "<length-percentage> [ <length-percentage> <length>? ]?"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Transforms",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "none"
+      }
+    }
+  },
+  "unicodeBidi": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "embed",
+      "isolate",
+      "bidi-override",
+      "isolate-override",
+      "plaintext"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Writing Modes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "userSelect": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "text", "none", "contain", "all"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Basic User Interface",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "verticalAlign": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "baseline",
+      "sub",
+      "super",
+      "text-top",
+      "text-bottom",
+      "middle",
+      "top",
+      "bottom"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Table",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "baseline"
+      }
+    }
+  },
+  "visibility": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["visible", "hidden", "collapse"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "visible"
+      }
+    }
+  },
+  "whiteSpace": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "normal",
+      "pre",
+      "nowrap",
+      "pre-wrap",
+      "pre-line",
+      "break-spaces"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "widows": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Fragmentation",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "2"
+      }
+    }
+  },
+  "width": {
+    "control": {
+      "type": "text"
+    },
+    "description": "Width of the element",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Box Model",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "willChange": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<animateable-feature>#"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Will Change",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "wordBreak": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "break-all", "keep-all", "break-word"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "wordSpacing": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "<length>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "wordWrap": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "break-word"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Text",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "writingMode": {
+    "control": {
+      "type": "select"
+    },
+    "options": [
+      "horizontal-tb",
+      "vertical-rl",
+      "vertical-lr",
+      "sideways-rl",
+      "sideways-lr"
+    ],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Writing Modes",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "horizontal-tb"
+      }
+    }
+  },
+  "zIndex": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["auto", "<integer>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Positioning",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "auto"
+      }
+    }
+  },
+  "zoom": {
+    "control": {
+      "type": "select"
+    },
+    "options": ["normal", "reset", "<number>", "<percentage>"],
+    "description": "",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Microsoft Extensions",
+      "type": {
+        "summary": null
+      },
+      "defaultValue": {
+        "detail": "normal"
+      }
+    }
+  },
+  "hoverStyle": {
+    "description": "Object representing the style on hover",
+    "table": {
+      "category": "CSS",
+      "subcategory": "Pseudo Class",
+      "type": {
+        "summary": "CSSObject"
+      },
+      "defaultValue": {
+        "detail": null
+      }
+    }
+  }
+}
