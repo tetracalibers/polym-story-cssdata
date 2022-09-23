@@ -28,7 +28,7 @@
     "lint": "eslint --ext .tsx,.ts src/",
     "lintfix": "npm run lint -- --fix",
     "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\"",
-    "dump": "vite-node ./src/dumpster/index.ts --"
+    "dump": "vite-node ./src/dumpster/index.ts --watch"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.185",
@@ -39,6 +39,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "fs-extra": "^10.1.0",
+    "json-difference": "^1.8.2",
     "json-microscope": "*",
     "mdn-data": "^2.0.29",
     "prettier": "^2.7.1",

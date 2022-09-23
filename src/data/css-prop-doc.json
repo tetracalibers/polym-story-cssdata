@@ -3,7 +3,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<color>"],
+    "options": [
+      "auto",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -113,7 +116,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["initial", "inherit", "unset", "revert"],
+    "options": [
+      "initial",
+      "inherit",
+      "unset",
+      "revert"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -130,7 +138,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation>#"],
+    "options": [
+      "<single-animation>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -147,7 +157,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<time>#"],
+    "options": [
+      "<time>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -164,7 +176,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation-direction>#"],
+    "options": [
+      "<single-animation-direction>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -181,6 +195,7 @@
     "control": {
       "type": "number"
     },
+    "options": [],
     "description": "Time required to complete one animation cycle",
     "table": {
       "category": "CSS",
@@ -197,7 +212,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation-fill-mode>#"],
+    "options": [
+      "<single-animation-fill-mode>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -214,7 +231,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation-iteration-count>#"],
+    "options": [
+      "<single-animation-iteration-count>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -231,7 +250,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ none", "<keyframes-name> ]#"],
+    "options": [
+      "[ none",
+      "<keyframes-name> ]#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -248,7 +270,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation-play-state>#"],
+    "options": [
+      "<single-animation-play-state>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -265,7 +289,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<easing-function>#"],
+    "options": [
+      "<easing-function>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -282,7 +308,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-animation-timeline>#"],
+    "options": [
+      "<single-animation-timeline>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -333,7 +361,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<ratio>"],
+    "options": [
+      "auto",
+      "<ratio>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -382,7 +413,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<filter-function-list>"],
+    "options": [
+      "none",
+      "<filter-function-list>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -399,7 +433,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden"],
+    "options": [
+      "visible",
+      "hidden"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -416,7 +453,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <bg-layer> , ]* <final-bg-layer>"],
+    "options": [
+      "[ <bg-layer> , ]* <final-bg-layer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -433,7 +472,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<attachment>#"],
+    "options": [
+      "<attachment>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -450,7 +491,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<blend-mode>#"],
+    "options": [
+      "<blend-mode>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -467,7 +510,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["border-box", "padding-box", "content-box", "text"],
+    "options": [
+      "border-box",
+      "padding-box",
+      "content-box",
+      "text"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -484,6 +532,7 @@
     "control": {
       "type": "color"
     },
+    "options": [],
     "description": "Color of background",
     "table": {
       "category": "CSS",
@@ -492,8 +541,8 @@
         "summary": null
       },
       "defaultValue": {
-        "summary": "transparent",
-        "detail": null
+        "detail": null,
+        "summary": "transparent"
       }
     }
   },
@@ -501,7 +550,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<bg-image>#"],
+    "options": [
+      "<bg-image>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -518,7 +569,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["border-box", "padding-box", "content-box"],
+    "options": [
+      "border-box",
+      "padding-box",
+      "content-box"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -535,7 +590,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<bg-position>#"],
+    "options": [
+      "<bg-position>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -598,7 +655,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<repeat-style>#"],
+    "options": [
+      "<repeat-style>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -615,7 +674,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<bg-size>#"],
+    "options": [
+      "<bg-size>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -632,7 +693,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["clip", "ellipsis", "<string>"],
+    "options": [
+      "clip",
+      "ellipsis",
+      "<string>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -649,7 +714,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'width'>"],
+    "options": [
+      "<'width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -666,7 +733,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "options": [
+      "<line-width>",
+      "",
+      "<line-style>",
+      "",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -706,7 +779,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>{1,2}"],
+    "options": [
+      "<'border-top-color'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -723,7 +798,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -740,7 +817,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -780,7 +859,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>"],
+    "options": [
+      "<'border-top-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -797,7 +878,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -814,7 +897,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -854,7 +939,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>"],
+    "options": [
+      "<'border-top-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -871,7 +958,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -888,7 +977,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -905,7 +996,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "options": [
+      "<line-width>",
+      "",
+      "<line-style>",
+      "",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -922,7 +1019,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>"],
+    "options": [
+      "<'border-top-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -939,7 +1038,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -956,7 +1057,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -973,7 +1076,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-style>"],
+    "options": [
+      "<line-style>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -990,7 +1095,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>"],
+    "options": [
+      "<line-width>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1007,7 +1114,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["collapse", "separate"],
+    "options": [
+      "collapse",
+      "separate"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1024,6 +1134,7 @@
     "control": {
       "type": "color"
     },
+    "options": [],
     "description": "Color of Border",
     "table": {
       "category": "CSS",
@@ -1041,7 +1152,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1058,7 +1171,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1099,7 +1214,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <length>", "<number> ]{1,4}"],
+    "options": [
+      "[ <length>",
+      "<number> ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1116,7 +1234,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ stretch", "repeat", "round", "space ]{1,2}"],
+    "options": [
+      "[ stretch",
+      "repeat",
+      "round",
+      "space ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1133,7 +1256,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<number-percentage>{1,4} && fill?"],
+    "options": [
+      "<number-percentage>{1,4} && fill?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1150,7 +1275,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<image>"],
+    "options": [
+      "none",
+      "<image>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1167,7 +1295,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <length-percentage>", "<number>", "auto ]{1,4}"],
+    "options": [
+      "[ <length-percentage>",
+      "<number>",
+      "auto ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1230,7 +1362,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>{1,2}"],
+    "options": [
+      "<'border-top-color'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1247,7 +1381,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1264,7 +1400,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1281,7 +1419,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>"],
+    "options": [
+      "<'border-top-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1298,7 +1438,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1315,7 +1457,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1355,7 +1499,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-color'>"],
+    "options": [
+      "<'border-top-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1372,7 +1518,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-style'>"],
+    "options": [
+      "<'border-top-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1389,7 +1537,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-top-width'>"],
+    "options": [
+      "<'border-top-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1406,7 +1556,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "options": [
+      "<line-width>",
+      "",
+      "<line-style>",
+      "",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1423,7 +1579,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1440,7 +1598,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-style>"],
+    "options": [
+      "<line-style>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1457,7 +1617,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>"],
+    "options": [
+      "<line-width>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1474,6 +1636,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Roundness of four corners",
     "table": {
       "category": "CSS",
@@ -1490,7 +1653,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "options": [
+      "<line-width>",
+      "",
+      "<line-style>",
+      "",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1507,7 +1676,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1524,7 +1695,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-style>"],
+    "options": [
+      "<line-style>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1541,7 +1714,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>"],
+    "options": [
+      "<line-width>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1558,7 +1733,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length> <length>?"],
+    "options": [
+      "<length> <length>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1575,7 +1752,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1592,7 +1771,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1638,7 +1819,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>", "", "<line-style>", "", "<color>"],
+    "options": [
+      "<line-width>",
+      "",
+      "<line-style>",
+      "",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1655,7 +1842,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1672,7 +1861,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1689,7 +1880,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>{1,2}"],
+    "options": [
+      "<length-percentage>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1706,7 +1899,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-style>"],
+    "options": [
+      "<line-style>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1723,7 +1918,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>"],
+    "options": [
+      "<line-width>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1740,6 +1937,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Thickness of the border",
     "table": {
       "category": "CSS",
@@ -1757,7 +1955,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1774,7 +1976,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["start", "center", "end", "baseline", "stretch"],
+    "options": [
+      "start",
+      "center",
+      "end",
+      "baseline",
+      "stretch"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1791,7 +1999,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["slice", "clone"],
+    "options": [
+      "slice",
+      "clone"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1808,7 +2019,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "reverse", "inherit"],
+    "options": [
+      "normal",
+      "reverse",
+      "inherit"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1825,7 +2040,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<number>"],
+    "options": [
+      "<number>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1842,7 +2059,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>"],
+    "options": [
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1859,7 +2078,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["single", "multiple"],
+    "options": [
+      "single",
+      "multiple"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1876,7 +2098,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>"],
+    "options": [
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1916,7 +2140,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["start", "center", "end", "justify"],
+    "options": [
+      "start",
+      "center",
+      "end",
+      "justify"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1933,7 +2162,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<shadow>#"],
+    "options": [
+      "none",
+      "<shadow>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -1950,7 +2182,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["content-box", "border-box"],
+    "options": [
+      "content-box",
+      "border-box"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2031,7 +2266,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "avoid", "avoid-page", "avoid-column", "avoid-region"],
+    "options": [
+      "auto",
+      "avoid",
+      "avoid-page",
+      "avoid-column",
+      "avoid-region"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2072,7 +2313,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<color>"],
+    "options": [
+      "auto",
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2089,7 +2333,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "left", "right", "both", "inline-start", "inline-end"],
+    "options": [
+      "none",
+      "left",
+      "right",
+      "both",
+      "inline-start",
+      "inline-end"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2106,7 +2357,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<shape>", "auto"],
+    "options": [
+      "<shape>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2146,6 +2400,7 @@
     "control": {
       "type": "color"
     },
+    "options": [],
     "description": "Text Color",
     "table": {
       "category": "CSS",
@@ -2163,7 +2418,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["economy", "exact"],
+    "options": [
+      "economy",
+      "exact"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2180,7 +2438,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "[ light", "dark", "<custom-ident> ]+ && only?"],
+    "options": [
+      "normal",
+      "[ light",
+      "dark",
+      "<custom-ident> ]+ && only?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2197,7 +2460,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>", "auto"],
+    "options": [
+      "<integer>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2214,7 +2480,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "balance", "balance-all"],
+    "options": [
+      "auto",
+      "balance",
+      "balance-all"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2231,7 +2501,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<length-percentage>"],
+    "options": [
+      "normal",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2271,7 +2544,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2288,7 +2563,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-style'>"],
+    "options": [
+      "<'border-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2305,7 +2582,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'border-width'>"],
+    "options": [
+      "<'border-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2322,7 +2601,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "all"],
+    "options": [
+      "none",
+      "all"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2339,7 +2621,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "auto"],
+    "options": [
+      "<length>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2356,7 +2641,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'column-width'>", "", "<'column-count'>"],
+    "options": [
+      "<'column-width'>",
+      "",
+      "<'column-count'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2383,7 +2672,9 @@
       "",
       "style",
       "",
-      "paint ]"
+      "paint ]",
+      null,
+      null
     ],
     "description": "",
     "table": {
@@ -2424,7 +2715,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "auto", "hidden"],
+    "options": [
+      "visible",
+      "auto",
+      "hidden"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2441,7 +2736,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <counter-name> <integer>? ]+", "none"],
+    "options": [
+      "[ <counter-name> <integer>? ]+",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2479,7 +2777,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <counter-name> <integer>? ]+", "none"],
+    "options": [
+      "[ <counter-name> <integer>? ]+",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2550,7 +2851,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["ltr", "rtl"],
+    "options": [
+      "ltr",
+      "rtl"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2598,7 +2902,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["show", "hide"],
+    "options": [
+      "show",
+      "hide"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2615,7 +2922,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<filter-function-list>"],
+    "options": [
+      "none",
+      "<filter-function-list>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2654,7 +2964,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["content", "<'width'>"],
+    "options": [
+      "content",
+      "<'width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2671,7 +2984,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["row", "row-reverse", "column", "column-reverse"],
+    "options": [
+      "row",
+      "row-reverse",
+      "column",
+      "column-reverse"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2688,7 +3006,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'flex-direction'>", "", "<'flex-wrap'>"],
+    "options": [
+      "<'flex-direction'>",
+      "",
+      "<'flex-wrap'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2705,7 +3027,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<number>"],
+    "options": [
+      "<number>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2722,7 +3046,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<number>"],
+    "options": [
+      "<number>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2739,7 +3065,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["nowrap", "wrap", "wrap-reverse"],
+    "options": [
+      "nowrap",
+      "wrap",
+      "wrap-reverse"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2756,7 +3086,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["left", "right", "none", "inline-start", "inline-end"],
+    "options": [
+      "left",
+      "right",
+      "none",
+      "inline-start",
+      "inline-end"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2804,7 +3140,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <family-name>", "<generic-family> ]#"],
+    "options": [
+      "[ <family-name>",
+      "<generic-family> ]#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2821,7 +3160,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<feature-tag-value>#"],
+    "options": [
+      "normal",
+      "<feature-tag-value>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2838,7 +3180,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "normal", "none"],
+    "options": [
+      "auto",
+      "normal",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2855,7 +3201,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<string>"],
+    "options": [
+      "normal",
+      "<string>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2872,7 +3221,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "none"],
+    "options": [
+      "auto",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2889,7 +3241,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "[ <string> <number> ]#"],
+    "options": [
+      "normal",
+      "[ <string> <number> ]#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2906,7 +3261,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<absolute-size>", "<relative-size>", "<length-percentage>"],
+    "options": [
+      "<absolute-size>",
+      "<relative-size>",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2948,7 +3307,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "never", "always", "<absolute-size>", "<length>"],
+    "options": [
+      "auto",
+      "never",
+      "always",
+      "<absolute-size>",
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2965,7 +3330,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<font-stretch-absolute>"],
+    "options": [
+      "<font-stretch-absolute>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2982,7 +3349,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "italic", "oblique <angle>?"],
+    "options": [
+      "normal",
+      "italic",
+      "oblique <angle>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -2999,7 +3370,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "[ weight", "", "style", "", "small-caps ]"],
+    "options": [
+      "none",
+      "[ weight",
+      "",
+      "style",
+      "",
+      "small-caps ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3216,7 +3594,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "sub", "super"],
+    "options": [
+      "normal",
+      "sub",
+      "super"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3233,7 +3615,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<font-weight-absolute>", "bolder", "lighter"],
+    "options": [
+      "<font-weight-absolute>",
+      "bolder",
+      "lighter"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3250,7 +3636,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "none"],
+    "options": [
+      "auto",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3267,6 +3656,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Gaps between rows and columns",
     "table": {
       "category": "CSS",
@@ -3304,7 +3694,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line> [ / <grid-line> ]{0,3}"],
+    "options": [
+      "<grid-line> [ / <grid-line> ]{0,3}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3321,7 +3713,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<track-size>+"],
+    "options": [
+      "<track-size>+"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3338,7 +3732,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ row", "column ]", "", "dense"],
+    "options": [
+      "[ row",
+      "column ]",
+      "",
+      "dense"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3355,7 +3754,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<track-size>+"],
+    "options": [
+      "<track-size>+"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3372,7 +3773,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line> [ / <grid-line> ]?"],
+    "options": [
+      "<grid-line> [ / <grid-line> ]?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3389,7 +3792,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line>"],
+    "options": [
+      "<grid-line>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3406,7 +3811,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>"],
+    "options": [
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3423,7 +3830,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line>"],
+    "options": [
+      "<grid-line>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3440,7 +3849,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'grid-row-gap'> <'grid-column-gap'>?"],
+    "options": [
+      "<'grid-row-gap'> <'grid-column-gap'>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3457,7 +3868,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line> [ / <grid-line> ]?"],
+    "options": [
+      "<grid-line> [ / <grid-line> ]?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3474,7 +3887,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line>"],
+    "options": [
+      "<grid-line>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3491,7 +3906,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>"],
+    "options": [
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3508,7 +3925,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<grid-line>"],
+    "options": [
+      "<grid-line>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3546,7 +3965,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<string>+"],
+    "options": [
+      "none",
+      "<string>+"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3632,6 +4054,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Height of element",
     "table": {
       "category": "CSS",
@@ -3648,7 +4071,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<string>"],
+    "options": [
+      "auto",
+      "<string>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3665,7 +4091,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "manual", "auto"],
+    "options": [
+      "none",
+      "manual",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3682,7 +4112,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["from-image", "<angle>", "[ <angle>? flip ]"],
+    "options": [
+      "from-image",
+      "<angle>",
+      "[ <angle>? flip ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3699,7 +4133,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "crisp-edges", "pixelated"],
+    "options": [
+      "auto",
+      "crisp-edges",
+      "pixelated"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3716,7 +4154,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ from-image", "", "<resolution> ] && snap?"],
+    "options": [
+      "[ from-image",
+      "",
+      "<resolution> ] && snap?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3733,7 +4175,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "normal", "active", "inactive", "disabled"],
+    "options": [
+      "auto",
+      "normal",
+      "active",
+      "inactive",
+      "disabled"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3750,7 +4198,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "[ <number> <integer>? ]"],
+    "options": [
+      "normal",
+      "[ <number> <integer>? ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3767,7 +4218,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ auto", "alphabetic", "hanging", "ideographic ]"],
+    "options": [
+      "[ auto",
+      "alphabetic",
+      "hanging",
+      "ideographic ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3784,7 +4240,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'width'>"],
+    "options": [
+      "<'width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3801,7 +4259,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "none"],
+    "options": [
+      "auto",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3818,7 +4279,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>{1,4}"],
+    "options": [
+      "<'top'>{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3835,7 +4298,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>{1,2}"],
+    "options": [
+      "<'top'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3852,7 +4317,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>"],
+    "options": [
+      "<'top'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3869,7 +4336,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>"],
+    "options": [
+      "<'top'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3886,7 +4355,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>{1,2}"],
+    "options": [
+      "<'top'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3903,7 +4374,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>"],
+    "options": [
+      "<'top'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3920,7 +4393,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'top'>"],
+    "options": [
+      "<'top'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -3937,7 +4412,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "isolate"],
+    "options": [
+      "auto",
+      "isolate"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4060,7 +4538,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4077,7 +4559,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<length>"],
+    "options": [
+      "normal",
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4094,7 +4579,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "loose", "normal", "strict", "anywhere"],
+    "options": [
+      "auto",
+      "loose",
+      "normal",
+      "strict",
+      "anywhere"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4111,7 +4602,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<integer>"],
+    "options": [
+      "none",
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4128,6 +4622,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "line height",
     "table": {
       "category": "CSS",
@@ -4144,7 +4639,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4161,7 +4658,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["none"],
+    "options": [
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4178,7 +4677,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<image>", "none"],
+    "options": [
+      "<image>",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4195,7 +4697,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["inside", "outside"],
+    "options": [
+      "inside",
+      "outside"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4212,7 +4717,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<counter-style>", "<string>", "none"],
+    "options": [
+      "<counter-style>",
+      "<string>",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4229,7 +4738,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <length>", "<percentage>", "auto ]{1,4}"],
+    "options": [
+      "[ <length>",
+      "<percentage>",
+      "auto ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4246,7 +4759,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>{1,2}"],
+    "options": [
+      "<'margin-left'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4263,7 +4778,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>"],
+    "options": [
+      "<'margin-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4280,7 +4797,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>"],
+    "options": [
+      "<'margin-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4297,7 +4816,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4314,7 +4837,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>{1,2}"],
+    "options": [
+      "<'margin-left'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4331,7 +4856,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>"],
+    "options": [
+      "<'margin-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4348,7 +4875,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'margin-left'>"],
+    "options": [
+      "<'margin-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4365,6 +4894,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "The left margin of the outside of the element",
     "table": {
       "category": "CSS",
@@ -4381,7 +4911,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4398,6 +4932,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "The top margin of the outside of the element",
     "table": {
       "category": "CSS",
@@ -4414,7 +4949,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "in-flow", "all"],
+    "options": [
+      "none",
+      "in-flow",
+      "all"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4431,7 +4970,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<mask-layer>#"],
+    "options": [
+      "<mask-layer>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4473,7 +5014,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["luminance", "alpha"],
+    "options": [
+      "luminance",
+      "alpha"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4490,7 +5034,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <length>", "<number> ]{1,4}"],
+    "options": [
+      "[ <length>",
+      "<number> ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4507,7 +5054,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ stretch", "repeat", "round", "space ]{1,2}"],
+    "options": [
+      "[ stretch",
+      "repeat",
+      "round",
+      "space ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4524,7 +5076,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<number-percentage>{1,4} fill?"],
+    "options": [
+      "<number-percentage>{1,4} fill?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4541,7 +5095,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<image>"],
+    "options": [
+      "none",
+      "<image>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4558,7 +5115,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <length-percentage>", "<number>", "auto ]{1,4}"],
+    "options": [
+      "[ <length-percentage>",
+      "<number>",
+      "auto ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4575,7 +5136,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ <geometry-box>", "no-clip ]#"],
+    "options": [
+      "[ <geometry-box>",
+      "no-clip ]#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4592,7 +5156,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<compositing-operator>#"],
+    "options": [
+      "<compositing-operator>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4609,7 +5175,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<mask-reference>#"],
+    "options": [
+      "<mask-reference>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4626,7 +5194,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<masking-mode>#"],
+    "options": [
+      "<masking-mode>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4643,7 +5213,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<geometry-box>#"],
+    "options": [
+      "<geometry-box>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4660,7 +5232,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<position>#"],
+    "options": [
+      "<position>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4677,7 +5251,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<repeat-style>#"],
+    "options": [
+      "<repeat-style>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4694,7 +5270,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<bg-size>#"],
+    "options": [
+      "<bg-size>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4711,7 +5289,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["luminance", "alpha"],
+    "options": [
+      "luminance",
+      "alpha"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4728,7 +5309,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ pack", "next ]", "", "[ definite-first", "ordered ]"],
+    "options": [
+      "[ pack",
+      "next ]",
+      "",
+      "[ definite-first",
+      "ordered ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4745,7 +5332,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "compact"],
+    "options": [
+      "normal",
+      "compact"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4762,7 +5352,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'max-width'>"],
+    "options": [
+      "<'max-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4803,7 +5395,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'max-width'>"],
+    "options": [
+      "<'max-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4820,7 +5414,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<integer>"],
+    "options": [
+      "none",
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4837,6 +5434,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Maximum width of element",
     "table": {
       "category": "CSS",
@@ -4853,7 +5451,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'min-width'>"],
+    "options": [
+      "<'min-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4895,7 +5495,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'min-width'>"],
+    "options": [
+      "<'min-width'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4937,7 +5539,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<blend-mode>"],
+    "options": [
+      "<blend-mode>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4954,7 +5558,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["fill", "contain", "cover", "none", "scale-down"],
+    "options": [
+      "fill",
+      "contain",
+      "cover",
+      "none",
+      "scale-down"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -4971,7 +5581,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<position>"],
+    "options": [
+      "<position>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5009,7 +5621,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<position>"],
+    "options": [
+      "auto",
+      "<position>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5026,7 +5641,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>"],
+    "options": [
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5068,7 +5685,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<position>"],
+    "options": [
+      "auto",
+      "<position>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5085,7 +5705,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ auto", "reverse ]", "", "<angle>"],
+    "options": [
+      "[ auto",
+      "reverse ]",
+      "",
+      "<angle>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5102,6 +5727,7 @@
     "control": {
       "type": "number"
     },
+    "options": [],
     "description": "Opacity of the element, i.e., the degree to which the content behind the element is hidden",
     "table": {
       "category": "CSS",
@@ -5118,7 +5744,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>"],
+    "options": [
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5135,7 +5763,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>"],
+    "options": [
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5152,7 +5782,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["none"],
+    "options": [
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5169,6 +5801,7 @@
     "control": {
       "type": "color"
     },
+    "options": [],
     "description": "Color of outline",
     "table": {
       "category": "CSS",
@@ -5185,7 +5818,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5202,7 +5837,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<'border-style'>"],
+    "options": [
+      "auto",
+      "<'border-style'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5219,7 +5857,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<line-width>"],
+    "options": [
+      "<line-width>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5236,7 +5876,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "options": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5253,7 +5899,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "none"],
+    "options": [
+      "auto",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5270,7 +5919,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "options": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5287,7 +5942,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["padding-box", "content-box"],
+    "options": [
+      "padding-box",
+      "content-box"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5304,7 +5962,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<visual-box>", "", "<length [0,∞]>"],
+    "options": [
+      "<visual-box>",
+      "",
+      "<length [0,∞]>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5321,7 +5983,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "options": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5338,7 +6006,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "break-word", "anywhere"],
+    "options": [
+      "normal",
+      "break-word",
+      "anywhere"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5355,7 +6027,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "options": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5372,7 +6050,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "clip", "scroll", "auto"],
+    "options": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5389,7 +6073,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ contain", "none", "auto ]{1,2}"],
+    "options": [
+      "[ contain",
+      "none",
+      "auto ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5406,7 +6094,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["contain", "none", "auto"],
+    "options": [
+      "contain",
+      "none",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5423,7 +6115,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["contain", "none", "auto"],
+    "options": [
+      "contain",
+      "none",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5440,7 +6136,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["contain", "none", "auto"],
+    "options": [
+      "contain",
+      "none",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5457,7 +6157,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["contain", "none", "auto"],
+    "options": [
+      "contain",
+      "none",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5474,6 +6178,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Width of additional area created inside the element",
     "table": {
       "category": "CSS",
@@ -5491,7 +6196,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>{1,2}"],
+    "options": [
+      "<'padding-left'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5508,7 +6215,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>"],
+    "options": [
+      "<'padding-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5525,7 +6234,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>"],
+    "options": [
+      "<'padding-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5542,7 +6253,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>"],
+    "options": [
+      "<length>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5559,7 +6273,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>{1,2}"],
+    "options": [
+      "<'padding-left'>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5576,7 +6292,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>"],
+    "options": [
+      "<'padding-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5593,7 +6311,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'padding-left'>"],
+    "options": [
+      "<'padding-left'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5610,6 +6330,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Width of the left margin within the element's interior",
     "table": {
       "category": "CSS",
@@ -5626,7 +6347,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>"],
+    "options": [
+      "<length>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5643,7 +6367,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>"],
+    "options": [
+      "<length>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5660,7 +6387,15 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+    "options": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "recto",
+      "verso"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5677,7 +6412,15 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+    "options": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "recto",
+      "verso"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5694,7 +6437,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "avoid"],
+    "options": [
+      "auto",
+      "avoid"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5711,7 +6457,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "[ fill", "", "stroke", "", "markers ]"],
+    "options": [
+      "normal",
+      "[ fill",
+      "",
+      "stroke",
+      "",
+      "markers ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5728,7 +6481,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<length>"],
+    "options": [
+      "none",
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5745,7 +6501,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<position>"],
+    "options": [
+      "<position>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5762,7 +6520,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'align-content'> <'justify-content'>?"],
+    "options": [
+      "<'align-content'> <'justify-content'>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5779,7 +6539,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'align-items'> <'justify-items'>?"],
+    "options": [
+      "<'align-items'> <'justify-items'>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5796,7 +6558,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'align-self'> <'justify-self'>?"],
+    "options": [
+      "<'align-self'> <'justify-self'>?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5842,7 +6606,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["static", "relative", "absolute", "sticky", "fixed"],
+    "options": [
+      "static",
+      "relative",
+      "absolute",
+      "sticky",
+      "fixed"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5859,7 +6629,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "auto", "[ <string> <string> ]+"],
+    "options": [
+      "none",
+      "auto",
+      "[ <string> <string> ]+"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5876,7 +6650,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "both", "horizontal", "vertical", "block", "inline"],
+    "options": [
+      "none",
+      "both",
+      "horizontal",
+      "vertical",
+      "block",
+      "inline"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5893,7 +6674,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5910,7 +6695,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<angle>", "[ x", "y", "z", "<number>{3} ] && <angle>"],
+    "options": [
+      "none",
+      "<angle>",
+      "[ x",
+      "y",
+      "z",
+      "<number>{3} ] && <angle>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5927,7 +6719,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<length-percentage>"],
+    "options": [
+      "normal",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5944,7 +6739,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["start", "center", "space-between", "space-around"],
+    "options": [
+      "start",
+      "center",
+      "space-between",
+      "space-around"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5961,7 +6761,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["separate", "collapse", "auto"],
+    "options": [
+      "separate",
+      "collapse",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5978,7 +6782,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ alternate", "", "[ over", "under ] ]", "inter-character"],
+    "options": [
+      "[ alternate",
+      "",
+      "[ over",
+      "under ] ]",
+      "inter-character"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -5995,7 +6805,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<number>{1,3}"],
+    "options": [
+      "none",
+      "<number>{1,3}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6012,7 +6825,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<color>{2}"],
+    "options": [
+      "auto",
+      "<color>{2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6029,7 +6845,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "stable && both-edges?"],
+    "options": [
+      "auto",
+      "stable && both-edges?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6046,7 +6865,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "thin", "none"],
+    "options": [
+      "auto",
+      "thin",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6063,7 +6886,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "smooth"],
+    "options": [
+      "auto",
+      "smooth"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6080,7 +6906,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>{1,4}"],
+    "options": [
+      "<length>{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6097,7 +6925,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>{1,2}"],
+    "options": [
+      "<length>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6114,7 +6944,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6131,7 +6963,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6148,7 +6982,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6165,7 +7001,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>{1,2}"],
+    "options": [
+      "<length>{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6182,7 +7020,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6199,7 +7039,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6216,7 +7058,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6233,7 +7077,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6250,7 +7096,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>"],
+    "options": [
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6267,7 +7115,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ auto", "<length-percentage> ]{1,4}"],
+    "options": [
+      "[ auto",
+      "<length-percentage> ]{1,4}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6284,7 +7135,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ auto", "<length-percentage> ]{1,2}"],
+    "options": [
+      "[ auto",
+      "<length-percentage> ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6301,7 +7155,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6318,7 +7175,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6335,7 +7195,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6352,7 +7215,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ auto", "<length-percentage> ]{1,2}"],
+    "options": [
+      "[ auto",
+      "<length-percentage> ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6369,7 +7235,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6386,7 +7255,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6403,7 +7275,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6420,7 +7295,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6437,7 +7315,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length-percentage>"],
+    "options": [
+      "auto",
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6454,7 +7335,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ none", "start", "end", "center ]{1,2}"],
+    "options": [
+      "[ none",
+      "start",
+      "end",
+      "center ]{1,2}"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6471,7 +7357,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<position>#"],
+    "options": [
+      "none",
+      "<position>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6488,7 +7377,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<position>"],
+    "options": [
+      "<position>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6505,7 +7396,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "repeat( <length-percentage> )"],
+    "options": [
+      "none",
+      "repeat( <length-percentage> )"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6522,7 +7416,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "repeat( <length-percentage> )"],
+    "options": [
+      "none",
+      "repeat( <length-percentage> )"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6539,7 +7436,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "always"],
+    "options": [
+      "normal",
+      "always"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6581,7 +7481,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "mandatory", "proximity"],
+    "options": [
+      "none",
+      "mandatory",
+      "proximity"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6598,7 +7502,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "mandatory", "proximity"],
+    "options": [
+      "none",
+      "mandatory",
+      "proximity"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6615,7 +7523,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<alpha-value>"],
+    "options": [
+      "<alpha-value>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6632,7 +7542,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage>"],
+    "options": [
+      "<length-percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6649,7 +7561,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "[ <shape-box>", "", "<basic-shape> ]", "<image>"],
+    "options": [
+      "none",
+      "[ <shape-box>",
+      "",
+      "<basic-shape> ]",
+      "<image>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6666,7 +7584,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>", "<length>"],
+    "options": [
+      "<integer>",
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6683,7 +7604,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "fixed"],
+    "options": [
+      "auto",
+      "fixed"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6725,7 +7649,15 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "start", "end", "left", "right", "center", "justify"],
+    "options": [
+      "auto",
+      "start",
+      "end",
+      "left",
+      "right",
+      "center",
+      "justify"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6742,7 +7674,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "all", "[ digits <integer>? ]"],
+    "options": [
+      "none",
+      "all",
+      "[ digits <integer>? ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6759,7 +7695,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["none"],
+    "options": [
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6776,7 +7714,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6850,7 +7790,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "all", "none"],
+    "options": [
+      "auto",
+      "all",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6867,7 +7811,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["solid", "double", "dotted", "dashed", "wavy"],
+    "options": [
+      "solid",
+      "double",
+      "dotted",
+      "dashed",
+      "wavy"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6884,7 +7834,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "from-font", "<length>", "<percentage>"],
+    "options": [
+      "auto",
+      "from-font",
+      "<length>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6901,7 +7856,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<'text-emphasis-style'>", "", "<'text-emphasis-color'>"],
+    "options": [
+      "<'text-emphasis-style'>",
+      "",
+      "<'text-emphasis-color'>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6918,7 +7877,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<color>"],
+    "options": [
+      "<color>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6935,7 +7896,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["[ over", "under ] && [ right", "left ]"],
+    "options": [
+      "[ over",
+      "under ] && [ right",
+      "left ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6980,7 +7945,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length-percentage> && hanging? && each-line?"],
+    "options": [
+      "<length-percentage> && hanging? && each-line?"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -6997,7 +7964,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "inter-character", "inter-word", "none"],
+    "options": [
+      "auto",
+      "inter-character",
+      "inter-word",
+      "none"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7014,7 +7986,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["mixed", "upright", "sideways"],
+    "options": [
+      "mixed",
+      "upright",
+      "sideways"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7031,7 +8007,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["clip", "ellipsis"],
+    "options": [
+      "clip",
+      "ellipsis"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7070,7 +8049,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<shadow-t>#"],
+    "options": [
+      "none",
+      "<shadow-t>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7087,7 +8069,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "auto", "<percentage>"],
+    "options": [
+      "none",
+      "auto",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7128,7 +8114,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<length>", "<percentage>"],
+    "options": [
+      "auto",
+      "<length>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7145,7 +8135,14 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "from-font", "[ under", "", "[ left", "right ] ]"],
+    "options": [
+      "auto",
+      "from-font",
+      "[ under",
+      "",
+      "[ left",
+      "right ] ]"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7162,7 +8159,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["<length>", "<percentage>", "auto"],
+    "options": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7207,7 +8208,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<transform-list>"],
+    "options": [
+      "none",
+      "<transform-list>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7278,7 +8282,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["flat", "preserve-3d"],
+    "options": [
+      "flat",
+      "preserve-3d"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7295,7 +8302,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<single-transition>#"],
+    "options": [
+      "<single-transition>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7312,7 +8321,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<time>#"],
+    "options": [
+      "<time>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7329,6 +8340,7 @@
     "control": {
       "type": "number"
     },
+    "options": [],
     "description": "Time required to complete animation",
     "table": {
       "category": "CSS",
@@ -7337,8 +8349,8 @@
         "summary": null
       },
       "defaultValue": {
-        "summary": 0,
-        "detail": null
+        "detail": null,
+        "summary": 0
       }
     }
   },
@@ -7346,7 +8358,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["none", "<single-transition-property>#"],
+    "options": [
+      "none",
+      "<single-transition-property>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7363,7 +8378,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<easing-function>#"],
+    "options": [
+      "<easing-function>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7424,7 +8441,13 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "text", "none", "contain", "all"],
+    "options": [
+      "auto",
+      "text",
+      "none",
+      "contain",
+      "all"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7467,7 +8490,11 @@
     "control": {
       "type": "select"
     },
-    "options": ["visible", "hidden", "collapse"],
+    "options": [
+      "visible",
+      "hidden",
+      "collapse"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7508,7 +8535,9 @@
     "control": {
       "type": "select"
     },
-    "options": ["<integer>"],
+    "options": [
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7525,6 +8554,7 @@
     "control": {
       "type": "text"
     },
+    "options": [],
     "description": "Width of the element",
     "table": {
       "category": "CSS",
@@ -7541,7 +8571,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<animateable-feature>#"],
+    "options": [
+      "auto",
+      "<animateable-feature>#"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7558,7 +8591,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "break-all", "keep-all", "break-word"],
+    "options": [
+      "normal",
+      "break-all",
+      "keep-all",
+      "break-word"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7575,7 +8613,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "<length>"],
+    "options": [
+      "normal",
+      "<length>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7592,7 +8633,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "break-word"],
+    "options": [
+      "normal",
+      "break-word"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7632,7 +8676,10 @@
     "control": {
       "type": "select"
     },
-    "options": ["auto", "<integer>"],
+    "options": [
+      "auto",
+      "<integer>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",
@@ -7649,7 +8696,12 @@
     "control": {
       "type": "select"
     },
-    "options": ["normal", "reset", "<number>", "<percentage>"],
+    "options": [
+      "normal",
+      "reset",
+      "<number>",
+      "<percentage>"
+    ],
     "description": "",
     "table": {
       "category": "CSS",

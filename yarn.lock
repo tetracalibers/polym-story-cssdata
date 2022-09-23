@@ -1062,15 +1062,20 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
+json-difference@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/json-difference/-/json-difference-1.8.2.tgz#263871cb7dff36b93bd5b95c7f5f1dcf51445edc"
+  integrity sha512-EVCoworuSNgs59YXcveEvejgfJrOYHrF5M2dpQflGhix41OkPDA6yNXiBKQtP3fpOorWqnFxWi8wbjXQmPECDA==
+
 json-format@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-format/-/json-format-1.0.1.tgz#143f67e62af129d6bffed288a46265ea23d0df0c"
   integrity sha512-MoKIg/lBeQALqjYnqEanikfo3zBKRwclpXJexdF0FUniYAAN2ypEIXBEtpQb+9BkLFtDK1fyTLAsnGlyGfLGxw==
 
 json-microscope@*:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/json-microscope/-/json-microscope-1.0.0.tgz#48f44c8e4fdb970478bb5277b142e2c1836c0d63"
-  integrity sha512-CW6od3ajR7sfnZewdmLy7NnHXGU+r66kCOCq9LVwjOw1NfnkZ8lJOaPAYOz2p9+BR36MJTgZCcC0FFselclqnw==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/json-microscope/-/json-microscope-1.0.1.tgz#84be08d2c821f640da56f261be28eee2480a382e"
+  integrity sha512-coTgZ6MxMIGpMdK8uWdLsyak+qA3ZckofYcPw+px04cijluStRxp7aIohLwQGlZ/IyRilNu7eTfggxYJUFHoIQ==
   dependencies:
     json-format "^1.0.1"
 
