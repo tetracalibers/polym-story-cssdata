@@ -1,6 +1,7 @@
 # memo
 *.txt
 experimental
+tmp
 
 # Logs
 logs
