@@ -1,6 +1,13 @@
 {
   "name": "@polym/story-cssdata",
   "description": "Data for storybook documentation of CSS control props for React components",
+  "keywords": [
+    "css",
+    "storybook",
+    "data",
+    "react",
+    "react-component"
+  ],
   "author": {
     "name": "tomixy"
   },
